@@ -1,7 +1,6 @@
 import React from "react";
 import "./Subscribe2.css";
 
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 
 

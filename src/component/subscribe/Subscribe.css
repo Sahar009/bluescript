@@ -1,5 +1,5 @@
 #subscribe {
-  background: url(../asset/back.jpeg);
+  background: url(../asset/that.jpg);
   text-align:start;
   color: #fff;
   background-size: cover;
@@ -7,7 +7,12 @@
   
 }
 
-
+.subscribe{
+  margin: 5rem;
+  display: flex;
+  position: relative;
+ 
+}
 .subscribe h2 {
   font-size: 3rem;
   font-weight: 500;
@@ -19,13 +24,16 @@
 
 
 
-
+.form{
+  position: absolute;
+  right: 5rem;
+}
 
 .form button {
-  padding: 0;
+ 
   background: rgb(172, 46, 67);
   color: #fff;
- align-self: flex-end;
+
   cursor: pointer;
   height: 5rem;
   width: 15rem;
@@ -41,32 +49,6 @@ form button:hover{
   
 }
 
-
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icon {
-  margin: 2rem;
-  padding: 1rem;
-  width: 4rem;
-  height: 4rem;
-  border: 1px solid orangered;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.social-icon:hover {
-  background: orangered;
-}
 
 @media screen and (max-width: 600px) {
   form input {

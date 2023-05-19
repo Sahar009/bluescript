@@ -1,14 +1,8 @@
 import React from "react";
 import "./Footer.css";
+import {AiFillInstagram, AiFillTwitterCircle} from 'react-icons/ai'
+import {BsFacebook} from 'react-icons/bs'
 
-import {
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaFax,
-  FaEnvelope,
-  FaGlobe,
-  FaTimes
-} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,7 +16,12 @@ const Footer = () => {
             <li><a>Affiliate</a></li>
             <li><a>FAQ</a></li>
           </ul>
-          <h3>© 2021. Foodera. All rights reserved.</h3>
+          <div className="footer-others">
+          <BsFacebook size={40}/>
+          <AiFillTwitterCircle size={40}/>
+         < AiFillInstagram size={40}/>
+          <h3>© 2023. Akinwumi Sehinde. All rights reserved.</h3>
+          </div>
          
         </div>
        

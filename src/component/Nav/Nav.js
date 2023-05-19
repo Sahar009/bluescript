@@ -38,7 +38,7 @@ const Nav = () => {
           </li>
           
           <li>
-            <a href="#features">About Us</a>
+            <a href="#download">About Us</a>
           </li>
           
           <li>
@@ -62,9 +62,9 @@ const Nav = () => {
       </menu>
       <div className="menu-icons" onClick={toggleMenu}>
         {showMenu ? (
-          <RiCloseLine color="#fff" size={30} />
+          <RiCloseLine color="black" size={30} />
         ) : (
-          <AiOutlineBars color="#fff" size={27} />
+          <AiOutlineBars color="black" size={30} />
         )}
       </div>
   </div>

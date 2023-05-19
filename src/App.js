@@ -8,6 +8,7 @@ import Subscribe2 from './component/subscribe2/Subscribe2';
 import Header from './component/header/Header'
 import Stat from './component/stats/Stat';
 import Page2 from './component/page2/Page2';
+import Page3 from './component/page3/Page3';
 function App() {
   return (
     <div className="header-bg">
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <Stat/>
       <Page2/>
+      <Page3/>
       <Download/>
       <Subscribe/>
       <Subscribe2/>

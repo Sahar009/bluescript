@@ -117,7 +117,7 @@
   @media screen and (max-width: 600px) {
     /* show nav button on navbar menu */
     .nav-btn {
-      display: block;
+      display: none;
     }
   
     .nav-links {
@@ -183,7 +183,7 @@
     }
   
     .navbar #nav-links-mobile li a {
-      color: #fff;
+      color: #ce2626;
       text-decoration: none;
       font-size: 18px;
     }
