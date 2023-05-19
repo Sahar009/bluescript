@@ -4,7 +4,7 @@ import {AiOutlineBars} from 'react-icons/ai'
 import {RiCloseLine} from 'react-icons/ri'
 import Button from '../UI/Button/Button';
 import logo from '../asset/logo2.png'
-import logo2 from '../asset/logo2.JPG'
+import logo2 from '../asset/logo22.png'
 
 
 const Nav = () => {
@@ -26,7 +26,7 @@ const Nav = () => {
  
 </nav>
 <nav className="navbar2 container">
-  <div className="logo">
+  <div className="logo2">
     <img src={logo2} />
     <menu>
         <ul

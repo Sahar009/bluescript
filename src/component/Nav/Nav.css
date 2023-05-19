@@ -26,6 +26,17 @@
     justify-content: left;
     align-items: center;
     
+    
+  }
+  .logo2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top:5rem;
+    margin : 3rem;
+    
+    
+    
   }
   
  
