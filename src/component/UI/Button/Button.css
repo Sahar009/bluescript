@@ -1,0 +1,27 @@
+a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: all 0.3s;
+}
+
+a.btn {
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+a.btn-dark {
+  background: #50884d;
+  border-bottom: rgb(43, 87, 43);
+  width: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  a.btn {
+    display: inline;
+  }
+}
